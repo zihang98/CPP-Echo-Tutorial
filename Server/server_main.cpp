@@ -11,6 +11,8 @@ void showErrorMessage(string message) {
 }
 
 int main() {
+	cout << "version 0.2\n";
+
 	WSADATA wsaData;
 	SOCKET serverSocket, clientSocket;
 	SOCKADDR_IN serverAddress, clientAddress;
